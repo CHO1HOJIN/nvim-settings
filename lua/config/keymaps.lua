@@ -23,3 +23,9 @@ mapKey("<leader>b", "<C-6>")
 
 -- json pretty
 mapKey("<leader>j", ":%!python -m json.tool<CR>")
+
+-- fine cmdline
+mapKey(":", ":FineCmdline<CR>")
+
+-- float terminal
+mapKey("<leader>fn", ":FloatermNew<CR>")

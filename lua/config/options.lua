@@ -27,4 +27,4 @@ opt.mouse:append("a")
 
 -- hightlight ColorColumn ctermbg=white guibg=#FFFFFF
 -- set colorcolumn=80
--- opt.colorcolumn = 80
+opt.colorcolumn = "80"

@@ -11,7 +11,18 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "clangd", "vimls" },
+				ensure_installed = {
+					"lua_ls",
+					"clangd",
+					"vimls",
+					"pyright",
+					"fsautocomplete",
+					"rust_analyzer",
+					"solidity",
+					"jsonls",
+					"html",
+					"cssls",
+				},
 			})
 		end,
 	},
@@ -22,7 +33,6 @@ return {
 			lspconfig.lua_ls.setup({})
 			lspconfig.pyright.setup({})
 			lspconfig.clangd.setup({})
-			-- lspconfig.fsharp_language_server.setup({})
 			lspconfig.fsautocomplete.setup({})
 			lspconfig.ocamlls.setup({})
 			lspconfig.rust_analyzer.setup({})
@@ -31,6 +41,7 @@ return {
 			lspconfig.jsonls.setup({})
 			lspconfig.html.setup({})
 			lspconfig.cssls.setup({})
+			-- lspconfig.ltex.setup({})
 
 			-- vim.lsp.buf.hover
 			-- vim.lsp.buf.definition
