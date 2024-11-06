@@ -29,3 +29,4 @@ mapKey(":", ":FineCmdline<CR>")
 
 -- float terminal
 mapKey("<leader>fn", ":FloatermNew<CR>")
+mapKey("<leader>fk", ":FloatermKill<CR>")
